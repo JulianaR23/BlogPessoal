@@ -66,7 +66,6 @@ public class TemaController {
 					return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 				})
 				.orElse(ResponseEntity.notFound().build());
-		
 	}
 
 }
